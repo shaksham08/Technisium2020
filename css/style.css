@@ -69,6 +69,23 @@ h6 {
   transition: background 0.5s;
   z-index: 11;
 }
+.time {
+  text-align: center;
+  font-family: 'Saira', sans-serif;
+  /*font-family: 'Orbitron', sans-serif;*/
+  font-size: 4vw;
+
+}
+
+p#demo {
+  font-weight: 10 !important;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  word-spacing: 15px;
+  letter-spacing: 4px;
+  color: white;
+}
+
 
 .back-to-top i {
   padding-top: 12px;
