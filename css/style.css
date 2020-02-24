@@ -210,7 +210,7 @@ p#demo {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1483,6 +1483,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
+.fixed{
+  display: none;
+}
+
 #footer .footer-top .footer-newsletter input[type="email"] {
   border: 0;
   padding: 6px 8px;
@@ -1536,6 +1540,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 }
 
+@media screen and (max-width: 600px) {
+  .mobile-hide {
+    display: none !important;
+  }
+
+  .mobile-show {
+    display: block !important;
+  }
+}
+
 
 @media (min-width: 768px) {
   #contact .contact-address,
@@ -1554,7 +1568,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
+  
 }
+
+
 
 @media (min-width: 992px) {
   #testimonials .testimonial-item p {
